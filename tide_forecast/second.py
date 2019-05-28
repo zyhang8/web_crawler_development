@@ -8,11 +8,11 @@ soup = BeautifulSoup(req.text, 'lxml')
 # 找到所有p标签中的内容并存放在xml这样一个类似于数组队列的对象中
 xml = soup.find_all(name='th.date', class_='')
 # 利用循环将xml[]中存放的每一条打印出来
-f = open("tide.txt", "w+")
+f = open("second.txt", "w+")
 for td in soup.select('th'):
     print(td.get_text(),file=f)
     print(td.get_text())
     for td in soup.select('td'):
-        print(td.get_text(),file=f)
+        print(td.get_text(), file=f)
         print(td.get_text())
 f.close()
