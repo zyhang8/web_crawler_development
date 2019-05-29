@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3568cd66-d2b8-4f08-a62a-095b9194d3c5" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="d2985fcb-385f-405c-8a1c-50084656d9c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/keys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files_Save/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Files_Save/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> bacd41a07c8447b7fb1e213d0b7e782440221703
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="539212140">
       <usages-collector id="statistics.lifecycle.project">
@@ -51,6 +59,15 @@
               <folding>
                 <element signature="e#66#90#0" expanded="true" />
               </folding>
+=======
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/keys.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+>>>>>>> bacd41a07c8447b7fb1e213d0b7e782440221703
             </state>
           </provider>
         </entry>
@@ -70,6 +87,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/ke.py" />
         <option value="$PROJECT_DIR$/key.py" />
       </list>
@@ -89,6 +107,18 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+=======
+        <option value="$PROJECT_DIR$/key.py" />
+        <option value="$PROJECT_DIR$/keys.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> bacd41a07c8447b7fb1e213d0b7e782440221703
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -110,10 +140,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/key.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+>>>>>>> bacd41a07c8447b7fb1e213d0b7e782440221703
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -127,6 +164,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="zhihu_key" />
@@ -175,11 +213,14 @@
       </list>
     </recent_temporary>
   </component>
+=======
+>>>>>>> bacd41a07c8447b7fb1e213d0b7e782440221703
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="3568cd66-d2b8-4f08-a62a-095b9194d3c5" name="Default Changelist" comment="" />
       <created>1557046645880</created>
       <option name="number" value="Default" />
@@ -198,6 +239,31 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Python Console" visible="true" weight="0.329718" />
+=======
+      <changelist id="d2985fcb-385f-405c-8a1c-50084656d9c4" name="Default Changelist" comment="" />
+      <created>1557046579332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557046579332</updated>
+      <workItem from="1557046580675" duration="672000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="672000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+>>>>>>> bacd41a07c8447b7fb1e213d0b7e782440221703
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -217,6 +283,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -228,6 +295,16 @@
           <folding>
             <element signature="e#66#90#0" expanded="true" />
           </folding>
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/key.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+>>>>>>> bacd41a07c8447b7fb1e213d0b7e782440221703
         </state>
       </provider>
     </entry>
