@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d8b59fb-8c9d-418d-9da6-92337e4f4ce4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Ajax_Data/微博列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax_Data/微博列表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tide_forecast/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/tide_forecast/first.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tide_forecast/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tide_forecast/second.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tide_forecast/tide.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tide_forecast/second.txt" afterDir="false" />
-    </list>
+    <list default="true" id="5d8b59fb-8c9d-418d-9da6-92337e4f4ce4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
