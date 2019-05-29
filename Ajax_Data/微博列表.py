@@ -15,6 +15,7 @@ db = client['weibo']
 collection = db['weibo']
 max_page = 10
 
+
 def get_page(page):
     params = {
         'type': 'uid',
@@ -29,6 +30,7 @@ def get_page(page):
             return response.json(), page
     except requests.ConnectionError as e:
         print('Error', e.args)
+
 
 def parse_page(json, page: int):
     if json:
