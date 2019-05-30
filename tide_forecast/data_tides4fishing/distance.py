@@ -9,7 +9,7 @@ import os
 from geopy.distance import geodesic
 
 ports_list = []
-allports_new_list = []
+allports_t4f_list = []
 min_20 = []  # 小于20的列表
 
 
@@ -27,9 +27,25 @@ def csv_process(filepath, filepaths):
             ports_list.append(row)
         for row1 in reader1:
             # 此时输出的是一行行的列表
-            allports_new_list.append(row1)
-        print(allports_new_list)
-        print(ports_list)
+            allports_t4f_list.append(row1)
+        # print(allports_t4f_list)
+        # print(ports_list)
+        # print(len(allports_t4f_list))
+        q = 0
+        p = 0
+        for k in range(1, len(allports_t4f_list)):
+            if allports_t4f_list[k][1].find("S") != -1:
+                allports_t4f_list[k][3] = '-' + allports_t4f_list[k][3]
+                # q += 1
+                # print(allports_t4f_list[k][3])
+            if allports_t4f_list[k][2].find("W") != -1:
+                allports_t4f_list[k][4] = '-' + allports_t4f_list[k][4]
+        # print(allports_t4f_list)
+        # p += 1
+        # print(allports_t4f_list[k][4])
+        # print(k)
+        # print(q)
+        # print(p)
         for i in range(1, len(ports_list)):
             if ports_list[i][2].find("S") != -1:
                 ports_list[i][6] = '-' + ports_list[i][6]
@@ -37,24 +53,31 @@ def csv_process(filepath, filepaths):
             if ports_list[i][3].find("W") != -1:
                 ports_list[i][7] = '-' + ports_list[i][7]
                 # print(ports_list[i][7])
+            # print(allports_t4f_list[1][3])
+            # print(allports_t4f_list[1][4])
             min_distance = geodesic((ports_list[i][6], ports_list[i][7]),
-                                    (allports_new_list[1][3], allports_new_list[1][4]))
+                                    (allports_t4f_list[1][3], allports_t4f_list[1][4]))
             min_index = []
-            for j in range(1, len(allports_new_list)):
-                t = geodesic((ports_list[i][6], ports_list[i][7]), (allports_new_list[j][3], allports_new_list[j][4]))
+            # print(min_distance)
+            for j in range(1, len(allports_t4f_list)):
+                t = geodesic((ports_list[i][6], ports_list[i][7]), (allports_t4f_list[j][3], allports_t4f_list[j][4]))
+                # print(t)
                 if t <= min_distance:
                     min_distance = t
                     min_index.append(j)
-            min_index = min_index[-1]
-            #     print(j)
+            # min_index = min_index[-1]
+            print(j)
+            print(i)
+            print(min_index[-1])
             # print(i)
             print(min_distance)
             if min_distance < 30:
                 min_20.append(min_distance)
             writer.writerows([[ports_list[i][0], ports_list[i][1], ports_list[i][2],
                                ports_list[i][3],
-                               ports_list[i][4], allports_new_list[min_index][7], min_distance]])
-            print(allports_new_list[min_index][0])
+                               ports_list[i][4], min_distance]])
+            # print(allports_t4f_list[min_index][0])
+        # print(ports_list)
         print(len(min_20))
 
 
