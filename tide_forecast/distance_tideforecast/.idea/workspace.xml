@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="671e8887-407a-4e38-9697-2bbf87271546" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data_tides4fishing/all_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_tides4fishing/all_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data_tides4fishing/distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_tides4fishing/distance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_tides4fishing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../data_tides4fishing/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +174,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="198" y="0" width="404" height="428" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="1.0" />
