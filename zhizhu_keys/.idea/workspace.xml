@@ -1,7 +1,526 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2833612c-11f8-4de5-88db-dba12a5177ac" name="Default Changelist" comment="" />
+    <list default="true" id="2833612c-11f8-4de5-88db-dba12a5177ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../huaproject/.idea/huaproject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huaproject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huaproject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huaproject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huaproject/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huaproject/huaproject/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huaproject/huaproject/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huaproject/huaproject/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huaproject/huaproject/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huaproject/huaproject/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huaproject/huaproject/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huaproject/huaproject/spiders/xiaohua.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huaproject/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../huaproject/xiaohua.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/.idea/youku_mini_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/bin/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/bin/activate.csh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/bin/activate.fish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/bin/easy_install" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/bin/easy_install-3.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/bin/pip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/bin/pip3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/bin/pip3.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/bin/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/bin/python3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/bin/you-get" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/easy-install.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip-19.1.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip-19.1.1.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip-19.1.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip-19.1.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip-19.1.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip-19.1.1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip-19.1.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/build_env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/cli/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/cli/base_command.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/cli/cmdoptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/cli/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/cli/status_codes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/commands/check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/commands/completion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/commands/configuration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/commands/download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/commands/freeze.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/commands/hash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/commands/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/commands/install.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/commands/list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/commands/search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/commands/show.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/commands/uninstall.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/commands/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/configuration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/locations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/models/candidate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/models/format_control.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/models/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/models/link.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/operations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/operations/check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/operations/freeze.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/operations/prepare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/pep425tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/pyproject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/req/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/req/constructors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/req/req_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/req/req_install.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/req/req_set.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/req/req_tracker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/req/req_uninstall.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/resolve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/appdirs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/deprecation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/encoding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/glibc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/hashes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/logging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/outdated.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/packaging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/setuptools_build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/temp_dir.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/typing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/utils/ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/vcs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/vcs/bazaar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/vcs/git.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/vcs/mercurial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/vcs/subversion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_internal/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/appdirs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/_cmd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/adapter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/controller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/filewrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/heuristics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/serialize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/certifi/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/certifi/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/certifi/cacert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/certifi/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/big5freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/big5prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/chardistribution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/charsetgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/charsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/cli/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/cli/chardetect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/codingstatemachine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/cp949prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/enums.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/escprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/escsm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/eucjpprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/euckrfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/euckrprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/euctwfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/euctwprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/gb2312freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/gb2312prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/hebrewprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/jisfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/jpcntx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/langbulgarianmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/langcyrillicmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/langgreekmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/langhebrewmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/langhungarianmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/langthaimodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/langturkishmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/latin1prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/mbcharsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/mbcsgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/mbcssm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/sbcharsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/sbcsgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/sjisprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/universaldetector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/utf8prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/chardet/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/colorama/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/colorama/ansi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/colorama/ansitowin32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/colorama/initialise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/colorama/win32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/colorama/winterm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/shutil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/tarfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/manifest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/markers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/metadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/resources.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/scripts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/t32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/t64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/w32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/w64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distlib/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/distro.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/_ihatexml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/_inputstream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/_tokenizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/datrie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/lint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/whitespace.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/html5parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/serializer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/dom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/etree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/dom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/etree_lxml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/genshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/idna/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/idna/codec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/idna/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/idna/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/idna/idnadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/idna/intranges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/idna/package_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/idna/uts46data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/ipaddress.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/lockfile/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/lockfile/linklockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/lockfile/mkdirlockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/lockfile/pidlockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/lockfile/sqlitelockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/lockfile/symlinklockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/msgpack/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/msgpack/_version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/msgpack/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/msgpack/fallback.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/packaging/__about__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/packaging/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/packaging/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/packaging/_structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/packaging/markers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/packaging/requirements.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/packaging/specifiers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/packaging/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/packaging/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pep517/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pep517/_in_process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pep517/build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pep517/check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pep517/colorlog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pep517/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pep517/envbuild.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pep517/wrappers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pkg_resources/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pkg_resources/py31compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/progress/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/progress/bar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/progress/counter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/progress/spinner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pytoml/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pytoml/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pytoml/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pytoml/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pytoml/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/pytoml/writer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/__version__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/_internal_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/adapters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/certs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/cookies.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/hooks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/packages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/sessions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/status_codes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/requests/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/retrying.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/_collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connectionpool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_appengine_environ.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/appengine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/securetransport.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/socks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/filepost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/backports/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/poolmanager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/retry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/ssl_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/timeout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/wait.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/webencodings/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/webencodings/labels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/webencodings/mklabels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/webencodings/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/pip/_vendor/webencodings/x_user_defined.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/setuptools-39.1.0-py3.7.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/setuptools.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get-0.4.1302.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get-0.4.1302.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get-0.4.1302.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get-0.4.1302.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get-0.4.1302.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get-0.4.1302.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get-0.4.1302.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get-0.4.1302.dist-info/zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/cli_wrapper/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/cli_wrapper/downloader/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/cli_wrapper/openssl/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/cli_wrapper/player/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/cli_wrapper/player/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/cli_wrapper/player/dragonplayer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/cli_wrapper/player/gnome_mplayer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/cli_wrapper/player/mplayer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/cli_wrapper/player/vlc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/cli_wrapper/player/wmp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/cli_wrapper/transcoder/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/cli_wrapper/transcoder/ffmpeg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/cli_wrapper/transcoder/libav.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/cli_wrapper/transcoder/mencoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/_bilibili.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/_blip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/_catfun.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/_coursera.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/_dongting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/_jpopsuki.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/_qianmo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/_songtaste.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/_thvideo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/_vid48.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/_videobam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/acfun.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/alive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/archive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/baidu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/bandcamp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/baomihua.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/bigthink.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/bilibili.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/bilibili_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/bokecc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/cbs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/ckplayer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/cntv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/coub.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/dailymotion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/dilidili.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/dongting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/douban.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/douyin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/douyutv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/ehow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/embed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/facebook.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/fantasy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/fc2video.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/flickr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/freesound.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/funshion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/giphy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/google.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/heavymusic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/huaban.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/huomaotv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/icourses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/ifeng.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/imgur.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/infoq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/instagram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/interest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/iqilu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/iqiyi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/iwara.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/ixigua.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/joy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/jpopsuki.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/khan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/ku6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/kuaishou.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/kugou.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/kuwo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/le.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/letv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/lizhi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/longzhu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/magisto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/metacafe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/mgtv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/miaopai.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/miomio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/mixcloud.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/mtv81.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/musicplayon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/nanagogo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/naver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/netease.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/nicovideo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/panda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/pinterest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/pixnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/pptv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/qianmo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/qie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/qie_video.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/qingting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/qq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/qq_egame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/quanmin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/showroom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/sina.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/sohu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/soundcloud.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/suntv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/ted.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/theplatform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/thvideo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/tiktok.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/toutiao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/tucao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/tudou.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/tumblr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/twitter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/ucas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/universal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/veoh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/videomega.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/vidto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/vimeo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/vine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/vk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/w56.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/wanmen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/xiami.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/ximalaya.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/yinyuetai.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/yixia.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/yixia_miaopai.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/yizhibo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/youku.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/youtube.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/zhanqi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/zhibo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/extractors/zhihu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/json_output.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/processor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/processor/ffmpeg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/processor/join_flv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/processor/join_mp4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/processor/join_ts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/processor/rtmpdump.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/util/fs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/util/git.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/util/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/util/os.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/util/strings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/util/term.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/lib/python3.7/site-packages/you_get/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/pip-selfcheck.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../youku_mini_project/video_help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zhihu_key/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zhihu_key/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +547,26 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="553668544">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="zhizhu_keys" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/key.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="17" column="39" selection-end-line="91" selection-end-column="12" />
+            <state relative-caret-position="-780">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -54,8 +582,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="947" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="946" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -65,6 +593,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,7 +605,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -112,17 +640,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.5005429" side_tool="true" visible="true" weight="0.12260128" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945712" visible="true" weight="0.12260128" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945712" visible="true" weight="0.060991958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5005429" side_tool="true" weight="0.12260128" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -130,11 +652,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,8 +674,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/key.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="17" column="39" selection-end-line="91" selection-end-column="12" />
+        <state relative-caret-position="-780">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
