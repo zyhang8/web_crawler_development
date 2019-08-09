@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fb4a156-4e90-439a-8382-5152edff8ee9" name="Default Changelist" comment="" />
+    <list default="true" id="8fb4a156-4e90-439a-8382-5152edff8ee9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../distance_tideforecast/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../distance_tideforecast/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,7 @@
     <session id="1218281468">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
